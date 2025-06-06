@@ -13,13 +13,13 @@ def main():
         choice = input('Choose an option please: ')
 
         if choice == '1':
-            task = print('Enter a task')
+            task = input('Enter a task')
             add_task(task)
         elif choice == '2':
             list_tasks()
         elif choice == '3':
             try:
-                index = print('what task would you like to mark as completed') -1
+                index = input('what task would you like to mark as completed') -1
                 mark_done(index)
             except ValueError:
                 print('please enter a valid task number')
