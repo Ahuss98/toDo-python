@@ -13,3 +13,9 @@ def load_tasks():
 def save_tasks(tasks):
     with open(DATA_FILE,'w') as f:
         json.dump(tasks,f,indent=2)
+
+def add_task(task):
+    tasks = load_tasks()
+    tasks.append({'task': task, 'done': False})
+    save_tasks(tasks)
+

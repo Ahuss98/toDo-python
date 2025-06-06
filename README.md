@@ -13,3 +13,9 @@ for this project I will be creating a simple todo app in python, this will consi
 - save_tasks()
     - 1. takes a paremter named tasks (which would be the same as what load tasks returns)
     - 2. and dumps it into the json file
+
+## the add function
+- add_task()
+    - 1. takes a task as an argument
+    - 2. use the previously made load function to then be able to append to it the new task
+    - 3. uses the previously made save function to save the new task
