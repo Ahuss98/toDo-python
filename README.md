@@ -19,3 +19,8 @@ for this project I will be creating a simple todo app in python, this will consi
     - 1. takes a task as an argument
     - 2. use the previously made load function to then be able to append to it the new task
     - 3. uses the previously made save function to save the new task
+
+## the list tasks
+- list_tasks()
+    - 1. loads tasks and saves to variable
+    - 2. loops over this list and displays status of task

@@ -19,3 +19,9 @@ def add_task(task):
     tasks.append({'task': task, 'done': False})
     save_tasks(tasks)
 
+def list_tasks():
+    tasks = load_tasks()
+    for i,task in enumerate(tasks,1):
+        status = 'DONE' if tasks['done'] else 'NOT DONE'
+        print(f"{i}. {task[status]}")
+
