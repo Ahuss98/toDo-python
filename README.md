@@ -33,7 +33,14 @@ for this project I will be creating a simple todo app in python, this will consi
     - 3. if it is change the status to done
     - 4. if not print that the index is invalid
 
+## the delete task
+- delete_task()
+    - 1. loads the tasks
+    - 2. prompts userfor the taskk number of which to delete
+    - 3. updates tasks
+
 # MAIN.py
 
 ## show menu function
     - prints all the options I want to show the user
+    - allows user to select a option, on whcih a certain function will be invoked relating to this

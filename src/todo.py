@@ -25,7 +25,6 @@ def list_tasks():
         status = 'DONE' if task['done'] else 'NOT DONE'
         print(f"{i}. {task['task']}: {status}")
 
-# list_tasks()
 
 def mark_done(index):
     tasks = load_tasks()
@@ -35,3 +34,8 @@ def mark_done(index):
     else:
         print('Invalid Task number')
 
+def delete_task(index):
+    tasks = load_tasks()
+    removed = tasks.pop(index)
+    print(f'you deleted {removed}')
+    save_tasks(tasks)
