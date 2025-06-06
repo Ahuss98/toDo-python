@@ -22,8 +22,10 @@ def add_task(task):
 def list_tasks():
     tasks = load_tasks()
     for i,task in enumerate(tasks,1):
-        status = 'DONE' if tasks['done'] else 'NOT DONE'
-        print(f"{i}. {task[status]}")
+        status = 'DONE' if task['done'] else 'NOT DONE'
+        print(f"{i}. {task['task']}: {status}")
+
+# list_tasks()
 
 def mark_done(index):
     tasks = load_tasks()
