@@ -10,3 +10,6 @@ def load_tasks():
             return json.load(f)
     return []
 
+def save_tasks(tasks):
+    with open(DATA_FILE,'w') as f:
+        json.dump(tasks,f,indent=2)
