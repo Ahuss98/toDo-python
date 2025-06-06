@@ -9,3 +9,4 @@ def load_tasks():
         with open(DATA_FILE,'r') as f:
             return json.load(f)
     return []
+
