@@ -3,6 +3,7 @@
 
 for this project I will be creating a simple todo app in python, this will consist of 3 baisic files a main for the terminal inputs a todo file for the functions (which will be 5: load/save/add/list/delete) and a json file to hold the data of the todo app
 
+# TODO.py
 ## the load function
 - load_tasks()
     - 1. checks if a file containing saved tasks exists
@@ -31,3 +32,8 @@ for this project I will be creating a simple todo app in python, this will consi
     - 2. checks if the index provided is valid
     - 3. if it is change the status to done
     - 4. if not print that the index is invalid
+
+# MAIN.py
+
+## show menu function
+    - prints all the options I want to show the user
