@@ -24,3 +24,10 @@ for this project I will be creating a simple todo app in python, this will consi
 - list_tasks()
     - 1. loads tasks and saves to variable
     - 2. loops over this list and displays status of task
+
+## the mark done 
+- mark_done()
+    - 1. loads the tasks
+    - 2. checks if the index provided is valid
+    - 3. if it is change the status to done
+    - 4. if not print that the index is invalid

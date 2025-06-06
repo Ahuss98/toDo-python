@@ -25,3 +25,11 @@ def list_tasks():
         status = 'DONE' if tasks['done'] else 'NOT DONE'
         print(f"{i}. {task[status]}")
 
+def mark_done(index):
+    tasks = load_tasks()
+    if index >= 0 and index < len(tasks):
+        tasks[index]["done"] = True
+        save_tasks(tasks)
+    else:
+        print('Invalid Task number')
+
