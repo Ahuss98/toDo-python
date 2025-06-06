@@ -10,5 +10,13 @@
   {
     "task": "dry cloths",
     "done": true
+  },
+  {
+    "task": "go to the shops",
+    "done": false
+  },
+  {
+    "task": "go visit mum",
+    "done": false
   }
 ]
